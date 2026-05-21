@@ -1,0 +1,24 @@
+{
+  "project_name": "shrug",
+  "project_type": "",
+  "sections": [
+    {
+      "name": "Section 1",
+      "total_rows": 0,
+      "current_row": 0,
+      "previous_row": 0,
+      "notes": "",
+      "yarn": "",
+      "hook": "",
+      "done": false
+    }
+  ],
+  "name": "shrug",
+  "yarn": "",
+  "hook": "",
+  "required_stitches": 0,
+  "previous_stitches": 0,
+  "total_stitches": 0,
+  "done": false,
+  "notes": ""
+}

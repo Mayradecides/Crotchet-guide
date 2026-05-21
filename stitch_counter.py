@@ -4,7 +4,7 @@ class Project:
 
 class Yarn:
     def __init__(self):
-        self.type = input("Which type of yarn would you like to use? ")
+        self.type = input("Which type of yarn would you like to use? ").strip()
 
 class Hook:
     def __init__(self, project):
@@ -21,7 +21,11 @@ class Stitches:
 
     def add_stitches(self):
         print(f"Previous total stitches: {self.total}")
-        new = int(input("How many stitches did you just do? "))
+        try:
+            new = int(input("How many stitches did you just do? "))
+        except ValueError:
+            print("Invalid input. Please enter a whole number.")
+            return
         self.previous = self.total
         self.total += new
         self.last_added = new
